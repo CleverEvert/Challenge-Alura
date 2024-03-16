@@ -1,0 +1,119 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    background: #f3f5fc;
+}
+
+header{
+    padding: 100px 0;
+    background: #AAB2D5;
+    width: 100%;
+}
+
+.caja{
+    display: inline-block;
+    width: 940px;
+    position: relative;
+}
+
+
+.caja nav{
+    font-size: 50px;
+    font-weight: bold;
+    color: #0A3871;
+    position: absolute;
+    top: 0;
+    left: 150px; 
+}
+
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#form1{    
+    border: solid #0A3871;
+    border-radius: 7px;
+    margin: 32px auto; 
+    max-width: fit-content;
+}
+
+
+
+#mensaje{
+    margin: 10px;
+    display: block;
+    margin-bottom: 5px auto;
+    background: none;
+    font-size: 20px;
+    resize: none;
+    border-color: transparent;
+    outline: none;
+}
+
+.enviar{
+    width: 20%;
+    padding: 15px 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #0A3871;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#encriptar{
+    margin-left: 50px;
+}
+
+.outcome{    
+    background: none;
+    border: solid;
+    border-radius: 5px;
+    margin: 32px auto; 
+}
+
+#textoEncriptado{
+    resize: none;
+    border-color: transparent;
+    outline: none;
+    margin: 10px;
+    display: block;
+    background: none;
+    font-size: 20px;
+}
+
+.outcome p1{
+    display: block;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+#copy{
+    width: 20%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #0A3871;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.copiar{
+    margin-left: 50px;
+}
+
+Footer{
+    text-align: center;
+    background: #AAB2D5;
+    padding: 80px;
+}
